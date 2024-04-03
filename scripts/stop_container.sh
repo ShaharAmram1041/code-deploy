@@ -1,3 +1,7 @@
 #!/bin/bash
-docker stop lidor-nginx
-docker rm lidor-nginx
+docker stop super-app-node
+docker rm super-app-node
+
+
+# docker run --name super-app-node -d -p 3000:3000 shahar1041/super-app:node
+
