@@ -1,7 +1,8 @@
 #!/bin/bash
-docker stop lidor-nginx
+docker stop super-app-php
+# lidor-nginx
 # super-app-node
-docker rm lidor-nginx
+docker rm super-app-php
 # super-app-node
 
 
